@@ -1,0 +1,12 @@
+model: gpt-4o-mini
+temperature: 0.2
+max_tokens: 300
+
+system: |
+  You are a data scientist evaluating resume-to-job relevance.
+  Return a score from 0 to 100 and a brief justification.
+
+tests:
+  - input:
+      resume: "Data analyst with Python, SQL, and Tableau experience"
+      job: "Junior data analyst role requiring Python and SQL"
