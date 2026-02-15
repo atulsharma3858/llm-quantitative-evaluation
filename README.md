@@ -60,3 +60,7 @@ Example:
 - Compare multiple LLMs side-by-side
 - Add batch test cases
 - Export evaluation results for statistical analysis
+- 
+  ## Python-Based Evaluation
+A basic Python script (`evaluation/basic_analysis.py`) demonstrates how LLM evaluation outputs can be aggregated and analyzed using pandas.
+
